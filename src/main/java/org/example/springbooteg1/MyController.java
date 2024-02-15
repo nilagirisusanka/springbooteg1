@@ -8,11 +8,13 @@ public class MyController {
 
     @GetMapping("/hello")
     public String helloeveryone(){
-        return "hello everyone, welcome to spring boot and happy learning";
+        //the hello end point will return Hello everyone, Welcome to Spring Boot and Happy Learning
+        return "Hello everyone, Welcome to Spring Boot and Happy Learning";
     }
 
     @GetMapping("/hai")
     public String hai(){
+        //the hai endpoint will return have a nice day
         return "have a nice day";
 
     }
